@@ -22,8 +22,8 @@ Installation
 Follow these steps to set up the application locally:
 
 Download the repository
-Clone the repository or download the ZIP file:
-git clone https://github.com/SushmaMandava09/Calendar-Application-for-Communication-Tracking-ENTNT
+Clone the repository or download the ZIP file
+:
 cd Calendar-Application-for-Communication-Tracking-master
 Install dependencies
   npm install
