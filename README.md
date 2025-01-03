@@ -1,52 +1,87 @@
-# Calendar-for-communication-tracking
-Features
-Admin Module
+# Calendar Application for Communication Tracking
+# Overview
+The Calendar Application for Communication Tracking is a React-based tool designed to help companies maintain strong professional relationships by accurately recording interactions with other organizations. This application ensures timely and consistent follow-ups and provides a centralized platform for managing past and future communications efficiently.
 
-Add, update, and delete companies.
-Configure communication methods and periodicity.
-Edit company details (name and communication preferences).
-Manage a centralized list of companies.
-User Module
-
-Dashboard to view communications and schedules.
-Log communication details (type, date, notes).
-View overdue and upcoming communications.
-Calendar view for tracking communication history.
-Reporting Module
-
-Generate visual insights for communication trends.
-Display communication frequency by type.
-Overdue communication trends.
-Interactive charts using Chart.js.
-Installation
-Follow these steps to set up the application locally:
-
-Download the repository
-Clone the repository or download the ZIP file
-:
-cd Calendar-Application-for-Communication-Tracking-master
-Install dependencies
-  npm install
-Run the project
+# Key Features
+Admin Module: Setup and manage companies and communication parameters.
+User Module: Visualize, manage, and perform communication tasks.
+Optional Reporting and Analytics Module: Gain actionable insights into communication patterns.
+# Getting Started
+# Clone the Repository
+git clone :
+# Install Dependencies
+npm install
+# Start the Application
 npm run dev
+# Live Deployment
 
-Dependencies
-The application requires the following npm packages:
 
-React (react, react-dom)
-React Router DOM (react-router-dom)
-Chart.js (chart.js)
-React Chart.js 2 (react-chartjs-2)
-How to Use
+# Objective
+This application aims to:
+
+Log past interactions and plan future communications.
+Manage engagement frequency based on predefined schedules.
+Provide a centralized platform for communication tracking.
+Modules and Features
 Admin Module
+Company Management
+Admins can:
 
-Add and configure companies via the Admin dashboard.
-Edit company details as needed.
+Add, edit, and delete companies with the following details:
+Name
+Location
+LinkedIn Profile
+Emails
+Phone Numbers
+Comments
+Communication Periodicity (e.g., every 2 weeks)
+Communication Method Management
+Admins can define available communication methods, including:
+
+Name (e.g., "Visit")
+Description (e.g., "Visit to company premises")
+Sequence (order of communication)
+Mandatory Flag (indicates if the method is mandatory)
+Default Communication Methods (in order):
+
+LinkedIn Post
+LinkedIn Message
+Email
+Phone Call
+Other
 User Module
-
-Log communication details and view them on the dashboard.
-Use the calendar to track communication history.
-Reporting Module
-
-View charts and insights to understand communication patterns.
-
+Dashboard
+Grid View: Displays each company with:
+Company Name
+Last Five Communications
+Next Scheduled Communication
+Color-Coded Highlights:
+Red: Overdue communication
+Yellow: Communication due today
+Interactive Features
+Hover Effect: Tooltip displays notes or comments for completed communications.
+Communication Action:
+Select one or multiple companies.
+Log a new communication with type, date, and notes.
+Notifications
+Overdue Communications Grid
+Today's Communications Grid
+Notification badge with overdue and due counts
+Calendar View
+View past communications and manage upcoming interactions.
+Reporting and Analytics Module (Optional)
+Communication Frequency Report:
+Visual representation (bar chart, pie chart) of communication methods.
+Filters by company, date range, or method.
+Engagement Effectiveness Dashboard:
+Track response rates by communication methods.
+Overdue Communication Trends:
+Trendline or heatmap of overdue communications over time.
+Downloadable Reports: Export data in PDF or CSV formats.
+Real-Time Activity Log: Live feed of communication activities.
+Application Architecture
+Technologies Used
+Frontend: React.js
+Backend: Node.js
+Database: MongoDB
+Deployment: Github
