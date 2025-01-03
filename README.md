@@ -3,9 +3,12 @@
 The Calendar Application for Communication Tracking is a React-based tool designed to help companies maintain strong professional relationships by accurately recording interactions with other organizations. This application ensures timely and consistent follow-ups and provides a centralized platform for managing past and future communications efficiently.
 
 # Key Features
-Admin Module: Setup and manage companies and communication parameters.
-User Module: Visualize, manage, and perform communication tasks.
-Optional Reporting and Analytics Module: Gain actionable insights into communication patterns.
+# Admin Module:
+Setup and manage companies and communication parameters.
+# User Module:
+Visualize, manage, and perform communication tasks.
+# Optional Reporting and Analytics Module:
+Gain actionable insights into communication patterns.
 # Getting Started
 # Clone the Repository
 git clone : https://github.com/Priyanshu-kumar-saini/Calendar-for-communication-tracking
@@ -14,17 +17,16 @@ npm install
 # Start the Application
 npm run dev
 # Live Deployment
-
-
+https://resplendent-lily-4a0d27.netlify.app/
 # Objective
 This application aims to:
 
 Log past interactions and plan future communications.
 Manage engagement frequency based on predefined schedules.
 Provide a centralized platform for communication tracking.
-Modules and Features
-Admin Module
-Company Management
+# Modules and Features
+# Admin Module
+# Company Management
 Admins can:
 
 Add, edit, and delete companies with the following details:
@@ -35,7 +37,7 @@ Emails
 Phone Numbers
 Comments
 Communication Periodicity (e.g., every 2 weeks)
-Communication Method Management
+# Communication Method Management
 Admins can define available communication methods, including:
 
 Name (e.g., "Visit")
@@ -49,35 +51,36 @@ LinkedIn Message
 Email
 Phone Call
 Other
-User Module
-Dashboard
-Grid View: Displays each company with:
+# User Module
+# Dashboard
+# Grid View: Displays each company with:
 Company Name
 Last Five Communications
 Next Scheduled Communication
-Color-Coded Highlights:
+# Color-Coded Highlights:
 Red: Overdue communication
 Yellow: Communication due today
-Interactive Features
-Hover Effect: Tooltip displays notes or comments for completed communications.
-Communication Action:
+# Interactive Features
+# Hover Effect: 
+Tooltip displays notes or comments for completed communications.
+# Communication Action:
 Select one or multiple companies.
 Log a new communication with type, date, and notes.
 Notifications
 Overdue Communications Grid
 Today's Communications Grid
 Notification badge with overdue and due counts
-Calendar View
+# Calendar View
 View past communications and manage upcoming interactions.
 Reporting and Analytics Module (Optional)
-Communication Frequency Report:
+# Communication Frequency Report:
 Visual representation (bar chart, pie chart) of communication methods.
 Filters by company, date range, or method.
 Engagement Effectiveness Dashboard:
 Track response rates by communication methods.
 Overdue Communication Trends:
 Trendline or heatmap of overdue communications over time.
-Downloadable Reports: Export data in PDF or CSV formats.
+# Downloadable Reports: Export data in PDF or CSV formats.
 Real-Time Activity Log: Live feed of communication activities.
 Application Architecture
 Technologies Used
